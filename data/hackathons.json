@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Smart India Hackathon 2024",
+    "date": "2024-03-15",
+    "description": "National level hackathon focusing on solving real-world problems using technology.",
+    "location": "Virtual",
+    "status": "won",
+    "position": "1st Prize",
+    "prize": "₹5,00,000",
+    "theme": "Smart Cities",
+    "technologies": ["AI/ML", "IoT", "Blockchain", "React", "Node.js"],
+    "logo": "assets/images/hackathons/sih-logo.png",
+    "team": "Team Rohini Nakshatra",
+    "project": "Smart Traffic Management System",
+    "projectLink": "https://github.com/rohini-nakshatra/smart-traffic"
+  }
+]

@@ -1,0 +1,13 @@
+{
+    "name": "rohini-nakshatra-website",
+    "version": "1.0.0",
+    "description": "Official website for Team Rohini Nakshatra",
+    "main": "pages/index.html",
+    "scripts": {
+        "start": "live-server --port=3000"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "live-server": "^1.2.2"
+    }
+}

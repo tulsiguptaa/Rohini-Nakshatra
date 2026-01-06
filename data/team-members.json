@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Arjun Sharma",
+    "role": "Team Lead & Full Stack Developer",
+    "bio": "Specializes in web development, cloud architecture, and project management. Leads team strategy and client interactions.",
+    "skills": ["React", "Node.js", "AWS", "Python", "MongoDB"],
+    "education": "BTech CSE, 3rd Year",
+    "email": "arjun@rohininakshatra.tech",
+    "social": {
+      "github": "https://github.com/arjunsharma",
+      "linkedin": "https://linkedin.com/in/arjunsharma",
+      "twitter": "https://twitter.com/arjunsharma"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Priya Kumar",
+    "role": "AI/ML Engineer & Data Scientist",
+    "bio": "Expert in machine learning algorithms, data analysis, and computer vision. Drives our AI-powered solutions.",
+    "skills": ["Python", "TensorFlow", "Data Analysis", "Computer Vision", "PyTorch"],
+    "education": "BTech CSE, 3rd Year",
+    "email": "priya@rohininakshatra.tech",
+    "social": {
+      "github": "https://github.com/priyakumar",
+      "linkedin": "https://linkedin.com/in/priyakumar",
+      "twitter": "https://twitter.com/priyakumar"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Rohan Singh",
+    "role": "Mobile Developer & UI/UX Designer",
+    "bio": "Creates beautiful, functional mobile applications with focus on user experience and interface design.",
+    "skills": ["Flutter", "React Native", "Figma", "UI/UX", "Swift"],
+    "education": "BTech CSE, 3rd Year",
+    "email": "rohan@rohininakshatra.tech",
+    "social": {
+      "github": "https://github.com/rohansingh",
+      "linkedin": "https://linkedin.com/in/rohansingh",
+      "twitter": "https://twitter.com/rohansingh"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Neha Mishra",
+    "role": "Blockchain Developer & Security Expert",
+    "bio": "Specializes in blockchain technology, smart contracts, and cybersecurity for our decentralized solutions.",
+    "skills": ["Solidity", "Ethereum", "Web3", "Cybersecurity", "Smart Contracts"],
+    "education": "BTech CSE, 3rd Year",
+    "email": "neha@rohininakshatra.tech",
+    "social": {
+      "github": "https://github.com/nehamishra",
+      "linkedin": "https://linkedin.com/in/nehamishra",
+      "twitter": "https://twitter.com/nehamishra"
+    }
+  }
+]

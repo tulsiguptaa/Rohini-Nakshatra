@@ -1,0 +1,135 @@
+/* Projects Page Styles */
+.projects-hero {
+    background: linear-gradient(rgba(74, 0, 224, 0.9), rgba(142, 45, 226, 0.9)), url('../../images/background/projects-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0 80px;
+    margin-top: 80px;
+}
+
+.projects-filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 10px 25px;
+    background: white;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-color);
+    border-radius: 50%;
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.project-link:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.project-date {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.project-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: white;
+    border-radius: var(--border-radius);
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--dark-color);
+    z-index: 1;
+}
+
+.modal-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}

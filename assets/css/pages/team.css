@@ -1,0 +1,71 @@
+/* Team Page Styles */
+.team-hero {
+    background: linear-gradient(rgba(26, 26, 46, 0.9), rgba(74, 0, 224, 0.9)), url('../../images/background/team-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0 80px;
+    margin-top: 80px;
+}
+
+.team-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+.team-intro p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.team-details {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+}
+
+.detail-card {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 40px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.detail-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.value-card {
+    text-align: center;
+    padding: 30px;
+}
+
+.value-icon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 auto 20px;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Smart Healthcare System",
+    "description": "An AI-powered healthcare management system that helps in early disease detection and patient monitoring.",
+    "fullDescription": "This comprehensive healthcare system uses machine learning algorithms to analyze patient data, predict potential health issues, and provide personalized recommendations. It includes features for doctors to monitor patients remotely and for patients to track their health metrics.",
+    "category": "ai-ml",
+    "tags": ["AI", "Machine Learning", "Healthcare", "Python", "Flask", "React"],
+    "technologies": ["Python", "TensorFlow", "React", "Node.js", "MongoDB", "Docker"],
+    "image": "assets/images/projects/healthcare-system.jpg",
+    "github": "https://github.com/rohini-nakshatra/healthcare-system",
+    "demo": "https://demo.rohininakshatra.tech/healthcare",
+    "date": "2024-01-15",
+    "featured": true,
+    "team": ["Arjun Sharma", "Priya Kumar"],
+    "status": "completed"
+  }
+]
